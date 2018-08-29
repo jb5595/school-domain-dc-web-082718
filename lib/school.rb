@@ -6,6 +6,6 @@ class School
     @roster = {}
   end 
   def add_student(student_name, student_grade)
-   if  @roster[student_grade]
+   if  @roster.has
   end 
 end 
